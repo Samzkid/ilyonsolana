@@ -240,8 +240,9 @@ padding: 30px;
 }
 
 .about-content ul {
-  margin-left: 20px;
+  margin-left: 80px;
   color: #ddd;
+  text-align: center;
 }
 
 .about-content ul li {
@@ -453,6 +454,7 @@ gap: 1rem;
   max-width: 600px;
   margin: 10px auto;
 }
+
 
 
 
