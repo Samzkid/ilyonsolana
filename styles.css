@@ -470,7 +470,8 @@ gap: 1rem;
 
 /* Image Grid */
 .image-grid {
-  border: 1px solid;
+  color: gray;
+  border: 2px solid;
   display: grid;
   gap: 10px;
   background-color: #444;
@@ -529,6 +530,7 @@ gap: 1rem;
 .close:hover {
   color: #ccc;
 }
+
 
 
 
