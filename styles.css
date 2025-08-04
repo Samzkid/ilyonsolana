@@ -44,6 +44,9 @@ nav a:hover {
   align-items: center;
   text-align: center;
   padding: 2rem;
+  border-radius: 40px;
+   box-shadow: 0 0 20px rgba(255, 105, 180, 0.15);
+border: 1px solid rgba(255, 255, 255, 0.08);
 }
 #hero h1 {
   font-size: 4rem;
@@ -449,4 +452,5 @@ gap: 1rem;
   max-width: 600px;
   margin: 10px auto;
 }
+
 
