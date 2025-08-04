@@ -98,8 +98,8 @@ section {
 /* How to Buy */
 #how-to-buy ol {
   max-width: 600px;
-  margin: auto;
-  text-align: left;
+  margin: 70px;
+  text-align: justify;
   margin-top: 1.5rem;
 }
 #how-to-buy a {
@@ -530,6 +530,7 @@ gap: 1rem;
 .close:hover {
   color: #ccc;
 }
+
 
 
 
