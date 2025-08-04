@@ -294,16 +294,21 @@ padding: 30px;
 
 .meme-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
-  max-width: 1000px;
-  margin: 0 auto;
+ 
 }
 
 .meme-gallery img {
+    background: black;
+padding: 1px;
+width: 100px;
+height: 180px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
   width: 100%;
   border-radius: 8px;
-  border: 2px solid #222;
+  border: 1px solid #222;
   cursor: pointer;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
@@ -518,6 +523,7 @@ gap: 1rem;
 .close:hover {
   color: #ccc;
 }
+
 
 
 
