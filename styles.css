@@ -443,9 +443,10 @@ gap: 1rem;
   background-color: #1c1c1c;
   
   border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px 40px rgba(255,105,180,0.15);
   transform-style: flat;
-  transition: transform 0.9s ease;
-  max-width: 800px;
-  margin: auto;
+  transition: transform 1.5s ease;
+  max-width: 600px;
+  margin: 10px auto;
 }
+
