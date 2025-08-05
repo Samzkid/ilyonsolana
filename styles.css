@@ -561,9 +561,10 @@ gap: 1rem;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.image-grid img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+.image-card img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
 }
 
 /* Container for the image grid */
@@ -642,6 +643,7 @@ gap: 1rem;
   transition: opacity 0.3s ease-in-out;
   pointer-events: none;
 }
+
 
 
 
