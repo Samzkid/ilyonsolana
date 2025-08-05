@@ -362,6 +362,7 @@ padding: 30px;
   background: #111;
   border-radius: 16px;
   border: 1px solid;
+  color: gray;
 }
 
 .memes-desc {
@@ -625,6 +626,7 @@ gap: 1rem;
     overflow-x: auto;
   }
 }
+
 
 
 
