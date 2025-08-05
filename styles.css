@@ -15,7 +15,7 @@ body {
 
 header {
   border-bottom: 1px solid;
-  color: white;
+  color: gray;
   padding-bottom: 1rem;
   position: fixed;
   top: 0;
@@ -625,6 +625,7 @@ gap: 1rem;
     overflow-x: auto;
   }
 }
+
 
 
 
