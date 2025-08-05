@@ -169,7 +169,8 @@ footer {
 
 /* How to Buy */
 
-  padding: 2rem 1rem;
+#how-to-buy {  
+padding: 2rem 1rem;
   display: flex;
   justify-content: center;
 }
@@ -636,6 +637,7 @@ gap: 1rem;
   transition: opacity 0.3s ease-in-out;
   pointer-events: none;
 }
+
 
 
 
