@@ -169,7 +169,6 @@ footer {
 
 /* How to Buy */
 
-#how-to-buy {
   padding: 2rem 1rem;
   display: flex;
   justify-content: center;
@@ -190,7 +189,7 @@ footer {
 .buy-box h3 {
   color: #ff69b4;
   font-size: 1.8rem;
-  margin-bottom: 1rem;
+ margin-bottom: 1rem; 
 }
 
 .buy-box p {
@@ -205,6 +204,11 @@ footer {
   padding-left: 1rem;
   max-width: 100%;
 }
+
+.copy-btn:hover {
+  background: #666;
+}
+
 
 .buy-box li {
   margin-bottom: 0.75rem;
@@ -249,12 +253,6 @@ footer {
 
 .buy-btn:hover {
   background: pink;
-}
-
-.copy-result {
-  margin-top: 0.75rem;
-  font-size: 0.9rem;
-  color: #ccc;
 }
 
 
@@ -616,6 +614,27 @@ gap: 1rem;
   .image-card {
     overflow-x: auto;
   }
+}
+
+.copy-container {
+  position: relative;
+  display: inline-block;
+}
+
+.copy-result {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #00ff88;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
 }
 
 
