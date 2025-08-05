@@ -195,7 +195,7 @@ footer {
 
 .buy-box p {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 .buy-box ol {
@@ -617,6 +617,7 @@ gap: 1rem;
     overflow-x: auto;
   }
 }
+
 
 
 
