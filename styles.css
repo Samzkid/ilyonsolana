@@ -95,26 +95,6 @@ section {
   border-radius: 10px;
 }
 
-/* How to Buy */
-#how-to-buy ol {
-  max-width: 600px;
-  margin: 70px;
-  text-align: justify;
-  margin-left: 30px;
-}
-#how-to-buy a {
-  color: #ff69b4;
-  text-decoration: underline;
-}
-
-#how-to-buy p {
-text-align: center;
-}
-
-.buy-box:hover {
-  transform: scale(1.03);
-}
-
 /* Community */
 .btn {
   display: inline-block;
@@ -139,35 +119,73 @@ footer {
   padding: 2rem 1rem;
   font-size: 0.875rem;
 }
+
+/* How to Buy */
+/* How to Buy */
+
+#how-to-buy {
+  padding: 2rem 1rem;
+}
+
+#how-to-buy ol {
+  max-width: 600px;
+  margin: 1.5rem auto;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+#how-to-buy a {
+  color: #ff69b4;
+  text-decoration: underline;
+}
+
+#how-to-buy p,
+#how-to-buy h3 {
+  text-align: center;
+}
+
+#how-to-buy h3 {
+  color: #ff69b4;
+  font-size: 1.8rem;
+}
+
 .buy-box {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 12px;
   padding: 2rem;
   margin: 2rem auto;
-  max-width: 600px;
-  text-align: left;
+  max-width: 700px;
+  text-align: center; /* ⬅️ center all content */
   box-shadow: 0 0 20px rgba(255, 105, 180, 0.15);
-border: 2px solid rgba(255, 255, 255, 0.08);
+  border: 3px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.buy-box:hover {
+  transform: scale(1.03);
 }
 
 .buy-box ol {
-  margin: 1rem 0;
+  margin: 1rem auto;
   padding-left: 1.5rem;
+  text-align: left;
+  max-width: 500px;
 }
 
-.buy-box a {
-  color: #ff69b4;
-  text-decoration: underline;
+.buy-box ol li {
+  margin-bottom: 0.75rem;
 }
 
 .buy-buttons {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;  /* ⬅️ center the buttons */
   gap: 1rem;
   margin-top: 1.5rem;
 }
 
-.buy-btn, .copy-btn {
+.buy-btn,
+.copy-btn {
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 30px;
@@ -178,6 +196,12 @@ border: 2px solid rgba(255, 255, 255, 0.08);
   text-decoration: none;
   font-size: 1rem;
   display: inline-block;
+  min-width: 180px;
+  text-align: center;
+}
+
+.buy-btn:hover {
+  background: pink;
 }
 
 .copy-btn {
@@ -186,9 +210,6 @@ border: 2px solid rgba(255, 255, 255, 0.08);
 
 .copy-btn:hover {
   background: #666;
-}
-.buy-btn:hover {
-  background: pink;
 }
 
 .copy-result {
@@ -534,6 +555,7 @@ gap: 1rem;
 .close:hover {
   color: #ccc;
 }
+
 
 
 
