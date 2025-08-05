@@ -115,11 +115,13 @@
       <li>Buy $SOL and send it to your wallet</li>
       <li>Click the button below to swap $SOL for $ILY</li>
     </ol>
-
-    <div class="buy-buttons">
-      <a href="https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=Dhu2cTaaCFnws87gh1hBMPcsANKoThjHhCBxcjgAjups" class="buy-btn">🪙 Buy on Jupiter</a>
-      <button class="copy-btn" onclick="copyContract(Dhu2cTaaCFnws87gh1hBMPcsANKoThjHhCBxcjgAjups)">📋 Copy Contract Address</button>
-    </div>
+<div class="buy-buttons">
+  <a href="https://jup.ag/..." target="_blank" class="buy-btn">🪙 Buy on Jupiter</a>
+  <div class="copy-container">
+    <button class="copy-btn" onclick="copyContract()">📋 Copy Contract Address</button>
+    <span id="copy-result" class="copy-result">✅ Copied!</span>
+  </div>
+    
   </div>
 </section>
 
@@ -249,13 +251,17 @@
     <p>Built on Solana • Launched via JUPITER</p>
   </footer>
 
-  <script>
+<script>
   function copyContract() {
-    const contractAddress = "Dhu2cTaaCFnws87gh1hBMPcsANKoThjHhCBxcjgAjups";
+    const contractAddress = "Dhu2cTaaCFnws87gh1hBMPcsANKoThjHhCBxcjgAjups"; // your contract
     navigator.clipboard.writeText(contractAddress).then(() => {
-      document.getElementById("copy-result").textContent = "✅ Contract copied to clipboard!";
-    }).catch(err => {
-      document.getElementById("copy-result").textContent = "❌ Failed to copy.";
+      const result = document.getElementById("copy-result");
+      result.style.opacity = "1";
+
+      // Reset after 2 seconds
+      setTimeout(() => {
+        result.style.opacity = "0";
+      }, 2000);
     });
   }
 </script>
@@ -337,6 +343,7 @@
   
 </body>
 </html>
+
 
 
 
