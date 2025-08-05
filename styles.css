@@ -120,7 +120,7 @@ footer {
   font-size: 0.875rem;
 }
 
-/* How to Buy */
+
 /* How to Buy */
 
 #how-to-buy {
@@ -129,9 +129,9 @@ footer {
 
 #how-to-buy ol {
   max-width: 600px;
-  margin: 1.5rem auto;
-  text-align: left;
-  padding-left: 1.5rem;
+  margin: 1.5rem;
+  text-align: justify;
+  padding-left: 10rem;
 }
 
 #how-to-buy a {
@@ -166,14 +166,16 @@ footer {
 }
 
 .buy-box ol {
+ list-style-position: inside; /* brings numbers inside the center block */
   margin: 1rem auto;
-  padding-left: 1.5rem;
-  text-align: left;
-  max-width: 500px;
+  padding: 0;
+  text-align: center; /* centers the text inside li */
+  max-width: 600px;
 }
 
 .buy-box ol li {
   margin-bottom: 0.75rem;
+  line-height: 1.6;
 }
 
 .buy-buttons {
@@ -555,6 +557,7 @@ gap: 1rem;
 .close:hover {
   color: #ccc;
 }
+
 
 
 
