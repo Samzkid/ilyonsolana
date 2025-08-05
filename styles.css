@@ -320,7 +320,7 @@ padding: 30px;
 }
 
 .about-content ul {
-  margin-left: 90px;
+  margin-left: 80px;
   color: #ddd;
   text-align: center;
 }
@@ -626,6 +626,7 @@ gap: 1rem;
     overflow-x: auto;
   }
 }
+
 
 
 
