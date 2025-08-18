@@ -119,12 +119,17 @@ background: rgba(0, 0, 0, 0.6); /* Or your preferred background */
     backdrop-filter: blur(1.5px); /* match above */
   }
   
+}
+
 .hero-buttons {
+  position: relative;
+  z-index: 2;
   display: flex;
-  justify-content: center;  /* keep them centered */
+  gap: 20px;
+  justify-content: center;
   align-items: center;
-  gap: 1rem; /* space between buttons */
-  flex-wrap: nowrap; /* prevents stacking on small screens */
+  flex-wrap: nowrap;
+  padding: 20px;
 }
 
   
@@ -688,6 +693,7 @@ gap: 1rem;
   transition: opacity 0.3s ease-in-out;
   pointer-events: none;
 }
+
 
 
 
