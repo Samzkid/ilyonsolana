@@ -125,7 +125,7 @@ background: rgba(0, 0, 0, 0.6); /* Or your preferred background */
   position: relative;
   z-index: 2;
   display: flex;
-  gap: 20px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
@@ -693,6 +693,7 @@ gap: 1rem;
   transition: opacity 0.3s ease-in-out;
   pointer-events: none;
 }
+
 
 
 
