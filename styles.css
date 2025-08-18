@@ -39,6 +39,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
+    backdrop-filter: blur(6px);           
 }
 
 /* === NAVIGATION LINKS === */
@@ -648,6 +649,7 @@ gap: 1rem;
   transition: opacity 0.3s ease-in-out;
   pointer-events: none;
 }
+
 
 
 
