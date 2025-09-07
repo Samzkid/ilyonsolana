@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'playfair Display', serif; 
+  font-style: italic; 
   background: #0b0f1a;
   color: white;
   line-height: 1.6;
@@ -930,3 +931,4 @@ footer {
   text-decoration: none;
   transition: background 0.3s ease, transform 0.2s ease;
 }
+
